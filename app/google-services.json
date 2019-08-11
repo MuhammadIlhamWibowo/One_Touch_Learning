@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1021133298860",
+    "firebase_url": "https://one-touch-learning.firebaseio.com",
+    "project_id": "one-touch-learning",
+    "storage_bucket": "one-touch-learning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021133298860:android:42e753d51f140616",
+        "android_client_info": {
+          "package_name": "com.secdev.onetouchlearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021133298860-4ie17gpdp9nh0eimvmm36tlgvffj1pnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.secdev.onetouchlearning",
+            "certificate_hash": "972d0057fe8529973eb9e910fe58fdfbd2a005c1"
+          }
+        },
+        {
+          "client_id": "1021133298860-auqli3ighhqfs39r91favlmdhejlkr9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTC8-bv5qA31ZJwCiyBcxdYCSiQOcbmSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021133298860-auqli3ighhqfs39r91favlmdhejlkr9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

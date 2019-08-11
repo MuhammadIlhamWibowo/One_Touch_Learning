@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/font</item>
+        <item name="android:textColor">@color/colorBlue</item>
+    </style>
+
+    <style name="AppTheme.FitsSystem">
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <!-- Textview -->
+    <style name="AppTheme.TextView" parent="AppTheme">
+    </style>
+
+    <style name="AppTheme.TextView.Onboard.Title" parent="AppTheme.TextView">
+        <item name="android:textSize">34sp</item>
+        <item name="android:fontFamily">@font/raleway_black</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+    </style>
+
+    <style name="AppTheme.TextView.Onboard.Subtitle" parent="AppTheme.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    
+    <style name="AppTheme.TextView.Title" parent="AppTheme.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/raleway_black</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="AppTheme.TextView.Subtitle" parent="AppTheme.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/raleway_medium</item>
+        <item name="android:textColor">@color/colorBlackLight</item>
+    </style>
+
+</resources>
